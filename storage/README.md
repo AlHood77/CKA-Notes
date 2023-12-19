@@ -14,7 +14,7 @@ Copy PV and PVC manifest examples from
 
 For Deployment ```kubectl create deployment my-deployment -n development --image=httpd:2.4.41-alpine --dry-run=client -o yaml > deployment.yaml```
 
-Then edit deployment to mount pvc. See
+Then edit deployment to mount pvc. See Claim as a Volume Example at link below.
 
 ## Links
 
